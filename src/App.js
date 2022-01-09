@@ -69,6 +69,7 @@ function App() {
         <h3>Atardecer: {weatherData.sunset}</h3>
         <h3>Pais: {weatherData.country}</h3>
         <h3>Lat: {weatherData.lat}</h3>
+        <h3>Lon: {weatherData.lon}</h3>
       </div>
       <div style={{ height: "400px", width: "100%" }}>
         <GoogleMapReact
